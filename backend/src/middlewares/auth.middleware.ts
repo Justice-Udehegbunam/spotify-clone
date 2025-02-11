@@ -35,7 +35,7 @@ export const authCallback = async (
       "Supabase User Metadata:",
       JSON.stringify(supabaseUser.user_metadata, null, 2)
     );
-    console.log("Supabase User ID:", supabaseUser.id);
+    // console.log("Supabase User ID:", supabaseUser.id);
 
     // Debugging: Check what data we are getting
 
